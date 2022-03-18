@@ -1,0 +1,135 @@
+body {
+  background-color: white;
+  align-items: center;
+  padding-top: 20px;
+  font-family: Arial Rounded MT, Helvetica Rounded, Arial, sans-serif;
+  background-image: url(../img/morning.jpg);
+}
+
+.container {
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  padding: 20px 50px;
+  width: 90%;
+}
+
+.home {
+  position: absolute;
+  left: 8.5%;
+}
+
+hr {
+  height: 5px !important;
+  background-color: black;
+  border: none;
+}
+
+.logo {
+  height: 80px;
+}
+
+.section-chara {
+  float: left;
+}
+
+.avatar {
+  width: 25%;
+}
+
+.arrow {
+  display: inline-block;
+}
+
+.arrow img {
+  width: 20px;
+}
+
+.form-play input {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+}
+
+.form-play .btn {
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-status {
+  border: 3px solid grey;
+  border-radius: 20px;
+}
+
+.section-status img {
+  width: 30px;
+}
+
+.section-status progress {
+  vertical-align: middle;
+  height: 50px;
+  width: 80%;
+}
+
+.section-chara h2 {
+  margin-bottom: 0;
+}
+
+#time {
+  font-size: 30px;
+}
+
+.avatar1 {
+  width: 13%;
+}
+
+.section-activity {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-activity .btn {
+  width: 100%;
+}
+
+#modalMakan img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+#modalMakan img:hover {
+  cursor: pointer;
+}
+
+#trophy {
+  width: 40%;
+}
+
+@media (max-width: 768px) {
+  .form-play input {
+    width: 80%;
+  }
+
+  .avatar {
+    width: 40%;
+  }
+
+  .form-play .btn {
+    width: 40%;
+  }
+
+  .avatar1 {
+    width: 40%;
+  }
+
+  .section-activity .col-md-6 {
+    width: 50%;
+  }
+
+  #modalMakan .col-md-3 {
+    width: 25%;
+  }
+}
